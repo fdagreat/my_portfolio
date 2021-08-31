@@ -343,6 +343,40 @@ img{
   margin-left: auto;
 }
 
+/* ===== RESUME =====*/
+.resume__container{
+  row-gap: 2rem;
+  text-align: center;
+}
+.resume__subtitle{
+  margin-bottom: var(--mb-2);
+  margin-left: var(--mb-4);
+}
+.resume__text{
+  margin-bottom: var(--mb-2);
+  margin-top: var(--mb-4);
+  margin-left: var(--mb-4);
+}
+.resume__img{
+  justify-self: center;
+}
+.resume__img img{
+  width: 200px;
+  border-radius: .5rem;
+}
+.resume__button{
+  display: block;
+  border: none;
+  outline: none;
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+  margin-left: auto;
+}
+.resume__container{
+  justify-items: center;
+}
+
+
 /* ===== FOOTER =====*/
 .footer{
   background-color: var(--second-color);
