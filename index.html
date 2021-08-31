@@ -1,205 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Fredy German Mgimba Portfolio</title>
-        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo"><Fredy></Fredy></a>
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Fredy German Mgimba Portfolio</title>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">
+                    <Fredy></Fredy>
+                </a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <!-- <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li> -->
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+
+            <div class="mobileShow">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Fredy</span>Developer & Designer.
+                    </h1>
+
+                    <a href="mailto:fredgerman30@gmail.com" class="button">Contact</a>
                 </div>
+            </div>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <!-- <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li> -->
-                    </ul>
+            <div class="mobileHide">
+                <div class="home__data">
+                    <h1 class="home__title"><br>Hi,<br>I'm <span class="home__title-color">Fredy</span><br> Developer &
+                        <br> Designer.</h1>
+                    <a href="#" class="button">Contact</a>
                 </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-
-                <div class="mobileShow"> 
-                    <div class="home__data">
-                        <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Fredy</span>Developer & Designer.</h1>
-    
-                        <a href="mailto:fredgerman30@gmail.com" class="button">Contact</a>
-                    </div>
-                    </div>
-
-                    <div class="mobileHide"> <div class="home__data">
-                        <h1 class="home__title"><br>Hi,<br>I'm <span class="home__title-color">Fredy</span><br> Developer & <br> Designer.</h1>
-                        <a href="#" class="button">Contact</a>
-                    </div>
-                </div>
-                    
+            </div>
 
 
 
-                <!-- <div class="home__data">
+
+            <!-- <div class="home__data">
                     <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Fredy</span><br> Developer & <br> Designer </h1>
 
                     <a href="#" class="button">Contact</a>
                 </div> -->
 
-                <div class="home__social">
-                    <a href="https://tz.linkedin.com/in/fredy-german-mgimba-174081146" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://www.instagram.com/fredy_da_great/" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
-                    <a href="https://github.com/fdagreat" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+            <div class="home__social">
+                <a href="https://tz.linkedin.com/in/fredy-german-mgimba-174081146" class="home__social-icon"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/fredy_da_great/" class="home__social-icon"><i
+                        class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/fdagreat" class="home__social-icon"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="home__img">
+                <img src="assets/img/perfil.png" alt="">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about.jpg" alt="">
                 </div>
 
-                <div class="home__img" >    
-                    <img src="assets/img/perfil.png" alt="">
+                <div>
+                    <h2 class="about__subtitle">I'm Fredy</h2>
+                    <p class="about__text">I enjoy using code to create, apart from also being an IoT enthusiast using
+                        Arduino and Rasberry Pi, a Graphics Designer and creating Logos, Posters, Snapchat, and
+                        Instagram filters (Snapchat lenses & Instagram filters), currently am using Python and
+                        Javascript for various projects especially Machine Learning and Data Science projects. </p>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
 
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'm Fredy</h2>
-                        <p class="about__text">I enjoy using code to create, apart from also being an IoT enthusiast using Arduino and Rasberry Pi, a Graphics Designer and creating Logos, Posters, Snapchat, and Instagram filters (Snapchat lenses & Instagram filters), currently am using Python and Javascript for various projects especially Machine Learning and Data Science projects. </p>           
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Here are some of the skills i posses</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">Web Deveopment</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">90%</span>
-                            </div>
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Profesional Skills</h2>
+                    <p class="skills__text">Here are some of the skills i posses</p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">Web Deveopment</span>
                         </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-bot skills__icon'></i>
-                                <span class="skills__name">Ai & Data Analysis </span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">70%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon' ></i>
-                                <span class="skills__name">Graphics Designing</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-                        </div>
-                        
-                        <!-- //skill data -->
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <!-- <i class="iconify" data-icon="bx-bx-tab"> </i> -->
-                                <i class='bx bx-tab skills__icon' ></i>
-                                <span class="skills__name">App Development</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">75%</span>
-                            </div>
-                        </div>
+                        <div class="skills__bar skills__html">
 
-                        
+                        </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-bot skills__icon'></i>
+                            <span class="skills__name">Ai & Data Analysis </span>
+                        </div>
+                        <div class="skills__bar skills__css">
 
+                        </div>
+                        <div>
+                            <span class="skills__percentage">70%</span>
+                        </div>
                     </div>
-                    
-                    <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">Graphics Designing</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
                     </div>
+
+                    <!-- //skill data -->
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <!-- <i class="iconify" data-icon="bx-bx-tab"> </i> -->
+                            <i class='bx bx-tab skills__icon'></i>
+                            <span class="skills__name">App Development</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+
+
+
                 </div>
-            </section>
 
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
-
-                <div class="work__container bd-grid">
-                    <div class="work__img">
-                        <a href="https://www.malagarasi.co.tz"> <img src="assets/img/malagarasi.png" alt="malagarasi"> </a> </br> <center>Malagarasi Website</center> 
-                    </div>
-                    <div class="work__img">
-                        <a href="https://www.hometutor.co.tz"> <img src="assets/img/hometutor.png" alt="hometutor"> </a> </br> <center>hometutor Website</center> 
-
-                        <!-- <img src="assets/img/work2.jpg" alt="hometutor"> -->
-                    </div>
-                    <div class="work__img">
-                        <!-- <img src="assets/img/work3.jpg" alt="ColorShift"> -->
-                        <a href="https://vercel.com/fdagreat/color-switchxo"> <img src="assets/img/colorswitch.png" alt="ColorShift Game"> </a> </br> <center>ColorShift Game</center>
-
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/catering.png" alt="Logo Design">
-                        <!-- <a href="www.google.com"> <img src="assets/img/work1.jpg" alt="Logo Design"> </a> Malagarasi Website --> </br> <center>Logo Design</center>
-
-                    </div>
-                    <div class="work__img">
-                        <!-- <img src="assets/img/filter.png" alt="Snapchat Filter Desgin"> </br> <center>Snapchat Filter Desgin</center> -->
-                        <a href="https://www.snapchat.com/add/fredy_dagreat"> <img src="assets/img/filter.png" alt="Snapchat Filter Desgin"> </a> </br> <center>Snapchat Filter Desgins </center>
-
-                    </div>
-                    <div class="work__img">
-                        <!-- <img src="assets/img/work6.jpg" alt="Github"> -->
-                        <a href="https://github.com/fdagreat"> <img src="assets/img/github.png" alt="Github"> </a> </br> <center>View My Projects On Github</center>
-
-                    </div>
+                <div>
+                    <img src="assets/img/work3.jpg" alt="" class="skills__img">
                 </div>
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                    <a href="https://www.malagarasi.co.tz"> <img src="assets/img/malagarasi.png" alt="malagarasi"> </a>
+                    </br>
+                    <center>Malagarasi Website</center>
+                </div>
+                <div class="work__img">
+                    <a href="https://www.hometutor.co.tz"> <img src="assets/img/hometutor.png" alt="hometutor"> </a>
+                    </br>
+                    <center>hometutor Website</center>
+
+                    <!-- <img src="assets/img/work2.jpg" alt="hometutor"> -->
+                </div>
+                <div class="work__img">
+                    <!-- <img src="assets/img/work3.jpg" alt="ColorShift"> -->
+                    <a href="https://vercel.com/fdagreat/color-switchxo"> <img src="assets/img/colorswitch.png"
+                            alt="ColorShift Game"> </a> </br>
+                    <center>ColorShift Game</center>
+
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/catering.png" alt="Logo Design">
+                    <!-- <a href="www.google.com"> <img src="assets/img/work1.jpg" alt="Logo Design"> </a> Malagarasi Website -->
+                    </br>
+                    <center>Logo Design</center>
+
+                </div>
+                <div class="work__img">
+                    <!-- <img src="assets/img/filter.png" alt="Snapchat Filter Desgin"> </br> <center>Snapchat Filter Desgin</center> -->
+                    <a href="https://www.snapchat.com/add/fredy_dagreat"> <img src="assets/img/filter.png"
+                            alt="Snapchat Filter Desgin"> </a> </br>
+                    <center>Snapchat Filter Desgins </center>
+
+                </div>
+                <div class="work__img">
+                    <!-- <img src="assets/img/work6.jpg" alt="Github"> -->
+                    <a href="https://github.com/fdagreat"> <img src="assets/img/github.png" alt="Github"> </a> </br>
+                    <center>View My Projects On Github</center>
+
+                </div>
+            </div>
             </br>
-        </br>
-            </section>
+            </br>
+        </section>
 
-            <!--===== CONTACT =====-->
-            <!-- <section class="contact section" id="contact">
+        <!--===== CONTACT =====-->
+        <!-- <section class="contact section" id="contact">
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
@@ -211,28 +234,33 @@
                     </form>
                 </div>
             </section> -->
-        </main>
+    </main>
 
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <!-- <p class="footer__title">Fredy</p> -->
-            <p>Contact me through <a href="mailto:fredgerman30@gmail.com">fredgerman30@gmail.com</a> or click on any the social icons below</p>
-            <div class="footer__social">
-                <a href="https://www.instagram.com/fredy_da_great/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://twitter.com/mrgreat_fredy" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
-                <a href="https://www.snapchat.com/add/fredy_dagreat" class="footer__icon"><i class='bx bxl-snapchat' ></i></a>
-                <a href="https://github.com/fdagreat" class="footer__icon"><i class='bx bxl-github' ></i></a>
-                <a href="https://tz.linkedin.com/in/fredy-german-mgimba-174081146" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
-                <a href="https://wa.link/onyobg " class="footer__icon"><i class='bx bxl-whatsapp' ></i></a>
-            </div>
-            <p>&#169; 2021 copyright all right reserved - Great Graphics - Fredy Mgimba </p>
-        </footer>
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <!-- <p class="footer__title">Fredy</p> -->
+        <p>Contact me through <a href="mailto:fredgerman30@gmail.com">fredgerman30@gmail.com</a> or click on any the
+            social icons below</p>
+        <div class="footer__social">
+            <a href="https://www.instagram.com/fredy_da_great/" class="footer__icon"><i
+                    class='bx bxl-instagram'></i></a>
+            <a href="https://twitter.com/mrgreat_fredy" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.snapchat.com/add/fredy_dagreat" class="footer__icon"><i
+                    class='bx bxl-snapchat'></i></a>
+            <a href="https://github.com/fdagreat" class="footer__icon"><i class='bx bxl-github'></i></a>
+            <a href="https://tz.linkedin.com/in/fredy-german-mgimba-174081146" class="footer__icon"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://wa.link/onyobg " class="footer__icon"><i class='bx bxl-whatsapp'></i></a>
+        </div>
+        <p>&#169; 2021 copyright all right reserved - Great Graphics - Fredy Mgimba </p>
+    </footer>
 
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
